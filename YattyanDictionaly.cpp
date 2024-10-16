@@ -18,9 +18,9 @@ SharedPointer < HeapPointer<T>>* Index(YattyanDictionaly<T>& Y, Any P) {
 	if (P == 25) { return Index(Y.F, 25); }//samasa
 	if (P == 26) { return Index(Y.F, 26); }//sanoura
 	if (P == 81) { return Index(Y.F, 81); }//ne-tyan
-	//	if (P == 21) { return Index(Y.F, 21); }//yottyan
-	//	if (P == 25) { return Index(Y.F, 25); }//yazukura
+	if (P == 21) { return Index(Y.F, 21); }//yottyan
+	if (P == 25) { return Index(Y.F, 25); }//yazukura
 	if (P == 28) { return Index(Y.F, 28); }//yazuura
-	//	if (P == 25) { return Index(Y.F, 25); }//8ban ra-men
+	if (P == 25) { return Index(Y.F, 25); }//8ban ra-men
 	return Index(Y.F, P);
 }
