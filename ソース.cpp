@@ -1,10 +1,12 @@
-#include <stdio.h>
+/** /
+include <stdio.h>
 
 #include "FlatMap.h"
 #include "HeapPointer.h"
 #include "SharedPointer.h"
+#include "Any.h"
 
-typedef int Any;
+//typedef int Any;
 
 template<class T>
 struct YattyanDictionaly {
@@ -35,3 +37,4 @@ SharedPointer < HeapPointer<T>>* Index(YattyanDictionaly<T>& Y, Any P) {
 //	if (P == 25) { return Index(Y.F, 25); }//8ban ra-men
 	return Index(Y.F, P);
 }
+/**/

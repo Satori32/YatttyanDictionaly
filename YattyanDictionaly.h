@@ -7,7 +7,7 @@
 #include "SharedPointer_Yattyan.h"
 #include "Any"
 
-typedef int Any;
+//typedef int Any;
 
 template<class T>
 struct YattyanDictionaly {
